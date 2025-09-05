@@ -1,0 +1,122 @@
+
+.HeaderList{
+    display: flex;    
+    list-style: none;
+    justify-content: right;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 6px;
+    margin-top: 20px;
+    margin-right: 120px;
+    
+}
+.HeaderList li a{
+    text-decoration: none;
+    color:grey;
+}
+.navbar ul li{
+    justify-content: space-around;
+    gap: 0.5rem;
+    padding-left: 20px;
+}
+.HeadSearch{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-right: 80px;
+    height: 30px;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+.Search{
+    border: 2px solid blue;
+    width: 400px;
+    border-radius: 5px;
+}
+.SearchBtn{
+    background-color: blue;
+       border-radius: 5px;
+    color: white;
+    width: 70px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    
+}
+.SearchBtn:hover{
+    background-color: green;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.AfterSearchList{
+    display: flex;
+    list-style: none;
+}
+.a {
+    text-decoration: none;
+}
+.AfterSearchList a{
+    text-decoration: none;
+    color: black;
+}
+.AfterSearchList select option{
+    text-decoration: none;
+    display: none;
+}
+.Help{
+    display: inline-block;
+}
+.HelpContent{
+    display: none;
+    position: absolute;
+    border: 1px solid antiquewhite;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     height: 25px;
+     
+}
+.HelpContent a{
+      padding: 12px 16px;
+    text-decoration: none;
+      text-align: left;
+}
+
+.Help:hover .HelpContent{
+    display: block;
+    
+}
+/* Add to your existing Header.css */
+.profile-dropdown {
+  position: absolute;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 0.5rem 0;
+  z-index: 1000;
+  min-width: 150px;
+}
+
+.profile-dropdown a,
+.profile-dropdown button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  text-align: left;
+  background: none;
+  border: none;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.profile-dropdown a:hover,
+.profile-dropdown button:hover {
+  background-color: #f5f5f5;
+}
+
+.cart-count {
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 50%;
+  padding: 0.1rem 0.4rem;
+  font-size: 0.7rem;
+  margin-left: 0.3rem;
+}

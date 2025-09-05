@@ -1,0 +1,112 @@
+.Header{
+    height: 70px;
+    border: 1px solid rgb(201, 181, 181);
+    border-radius: 5px;
+    background-color: aliceblue;
+
+}
+.HeaderList{
+    display: flex;    
+    list-style: none;
+    justify-content: right;
+    margin-left: 850px;
+    
+    margin-top: 20px;
+    margin-right: 120px;
+    
+}
+.HeaderList li a{
+    text-decoration: none;
+    color:grey;
+}
+.navbar ul li{
+    justify-content: space-around;
+    gap: 0.5rem;
+    padding-left: 20px;
+}
+.order-summary{
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(126, 124, 124);
+    position: absolute;
+    left: 75%;
+    bottom: 100px;
+}
+
+ .summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: rgb(44, 41, 41)
+        }
+.total-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+.checkout-btn {
+    width: 95%;
+    padding: 12px;
+    background-color: rgb(78, 194, 78);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.checkout-btn:hover {
+    background-color: #3b5bd9;
+}
+
+.coupon-section{
+    width: 250px;
+    height: 75px;
+    border: 1px solid rgb(163, 160, 157);
+    border-radius: 4px;
+    position: absolute;
+    left: 75%;
+    bottom: 370px;
+}
+.coupon-input-group{
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
+    border-color: bisque;
+    display: flex;
+    margin-top: 10px;
+}
+.btn-container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.Back-btn{
+    background-color: rgb(21, 150, 255);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 35px;
+}
+.Back-btn:hover{
+    background-color: rgb(29, 216, 29);
+}
+.RemoveAll-btn{
+margin-right: 320px;
+ color: blue;
+ background-color: white;
+ border-color: azure;
+   border-radius: 5px;
+    font-size: 15px;
+    height: 35px;
+}
+.RemoveAll-btn:hover{
+    background-color: rgb(209, 209, 204);
+}

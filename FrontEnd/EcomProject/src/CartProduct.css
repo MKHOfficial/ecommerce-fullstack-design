@@ -1,0 +1,75 @@
+.CartTab{
+  margin-right: 170px;
+}
+.CartItem{
+        background-color: aliceblue;
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 10px;
+        
+}
+.CartItem:hover{
+  background-color:rgb(234, 237, 239);
+  box-shadow: 5px 5px 5px 5px rgb(198, 205, 210);
+}
+.ItemImage{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline;
+}
+.ItemDetails{
+    padding: bottom 60px;
+
+}
+.cartActions{
+    display: flex;
+    font-weight: bold;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-bottom: 40px;
+    
+}
+.quantity{
+    padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  align-items: flex-end;
+  cursor: pointer;
+}
+.button-container {
+  margin-top: 100px;
+  display: flex;
+  gap: 12px;
+}
+
+.remove-btn {
+  color: red;
+  background: none;
+  cursor: pointer;
+  border-radius: 5px;
+    border-color: #ccc;
+     align-items: center;
+     display: flex;
+}
+.remove-btn:hover{
+  background-color: #ccc;
+}
+.save-btn {
+  color: #007bff;
+  border-color: #ccc;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  align-items: center;
+     display: flex;
+}
+.save-btn:hover{
+   background-color: #ccc;
+}

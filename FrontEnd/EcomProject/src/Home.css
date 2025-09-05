@@ -1,0 +1,65 @@
+
+.MainItem{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 70px;
+    margin-left: 70px;
+    background-color : white;
+}
+.MainItem img{
+    width: 700px;
+    height: 340px;
+    margin-top: 20px;
+}
+.MainItem button{
+    position:absolute;
+    margin-right: 480px;
+    margin-top: 125px;
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid white ;
+    font-weight: 600;
+}
+.HeadSpan{
+    font-size: 25px;
+    position: absolute;
+    padding: right 30px;
+    margin-right: 470px;
+    margin-top: 60px;
+    font-weight: bold;
+}
+.HeadSpan b{
+    color: White;
+}
+
+.Products{
+    display: flex;
+    justify-content: right;
+    padding: 0px;
+}
+.OfferTimer{
+    border: 1px solid black;
+}
+.HomeItemsTab{
+    border: 1px solid rgb(11, 2, 2);
+    display:flex;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    border-collapse: collapse;
+    margin-right: 70px;
+    margin-left: 380px;
+    overflow: auto;
+    border-radius: 5px ;
+}
+
+.RecommendTab{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 30px;
+    
+}

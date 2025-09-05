@@ -1,0 +1,44 @@
+/* .Offers{
+    display:inline;
+    justify-content: space-around;
+     border: 1px solid black;
+   
+} */
+
+  .OffersCard{
+    border: 1px solid black;
+    text-align: center;
+    width: 200px;
+    height:200px;
+    /* max-width: 170px;
+    height: 300px; */
+}
+
+.OffersCard img{
+    width: 120px;
+    height: 120px;
+}
+    
+/* 
+ .OfferImg{
+    width: 10px;
+    height: 10px;
+} */
+
+.Discount{
+    border: 1px solid white;
+    border-radius: 10px;
+    color: red;
+    background-color: rgb(248, 187, 183);
+    text-align: center;
+    padding: 3px;
+}
+/*
+.OfferName{
+    text-align: center;
+} */
+.OffersCard:hover{
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+   
+    animation: 1s;
+}
